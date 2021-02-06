@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "powerful-vine-303514-tfstate"
     prefix = "env/dev"
   }
 }
